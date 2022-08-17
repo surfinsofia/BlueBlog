@@ -1,0 +1,21 @@
+{{> blog-posts posts }}
+<button id="deleteBtn">Delete Post</button>
+
+<h3 id='edit-h3'>Edit Post</h3>
+<form class="editPost">
+    <div id="editForm">
+        <div>
+            <p>Post Title:</p>
+            <textarea type="text" id="editTitle" name="editTitle"></textarea>
+        </div>
+        <div>
+            <p>Post Content:</p>
+            <textarea type="text" id="editContent" name="editContent"></textarea>
+        </div>
+    </div>
+    <button type="submit" id="editBtn">Edit Post</button>
+</form>
+
+
+
+<script src="/js/deleteEditPost.js"></script>

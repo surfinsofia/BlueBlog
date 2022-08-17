@@ -1,0 +1,351 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+header h1 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+body {
+    margin: auto;
+    background-color: lightcyan;
+
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: lightskyblue;
+}
+
+a {
+    background-color: lightskyblue;
+    color: black;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.posts {
+    border: 1px solid black;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+#postFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.posts a {
+    background-color: lightskyblue;
+}
+
+#homepageTitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.login {
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    height: 300px;
+}
+
+.signup {
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    height: 300px;
+}
+
+.signup h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#email-login-div {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-login-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#loginBtn {
+    margin-top: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+#loginBtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#signupBtn {
+    margin-top: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+#signupBtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#email-signup-div {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#username-signup-div {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-signup-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoutBtn {
+    background-color: transparent;
+    border: none;
+}
+
+#comment {
+    margin-top: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#comment h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#commentText {
+    font-size: 20px;
+}
+
+#commentAuthor {
+    font-size: 17px;
+}
+
+.singleComment {
+    border-bottom: 1px solid black;
+}
+
+.commentForm h2 {
+    text-align: center;
+}
+
+#commentTextArea {
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.commentButton {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+.commentButton:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.editDeleteButton {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+.editDeleteButton:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#edit-h3 {
+    text-align: center;
+}
+
+.editPost {
+    width: 100%;
+    margin: auto;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+#editTitle {
+    width: 100%;
+}
+
+#editContent {
+    width: 100%;
+    height: 50px;
+}
+
+#editBtn {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+#editBtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#deleteBtn {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: tomato;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid red;
+    transition: all 0.4s ease 0s;
+}
+
+#deleteBtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#existingPostsH2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#newPostH3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.addNewPost {
+    width: 100%;
+    margin: auto;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+#postTitle {
+    width: 50%;
+}
+
+#postText {
+    width: 100%;
+}
+
+.newPostBtn {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    transition: all 0.4s ease 0s;
+}
+
+.newPostBtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}

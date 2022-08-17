@@ -1,0 +1,28 @@
+<h2 id="homepageTitle">My Dashboard</h2>
+
+<h3 id="newPostH3">Add a New Post</h3>
+<form class="addNewPost">
+    <div>
+        <p>Post Title:</p>
+        <textarea type="text" id="postTitle" name="postTitle"></textarea>
+    </div>
+    <div>
+        <p>Post Content:</p>
+        <textarea type="text" id="postText" name="postText"></textarea>
+    </div>
+    <button type="submit" class="newPostBtn">Create New Post</button>
+</form>
+
+{{#if posts.length}}
+<h2 id="existingPostsH2">My Blog Posts</h2>
+<ul class="post-list">
+    {{#each posts as |post|}}
+    <li>
+        {{> blog-posts post }}
+        <a class="editDeleteButton" href="/dashboard/edit/{{post.id}}">Edit or Delete Post</a>
+    </li>
+    {{/each}}
+</ul>
+{{/if}}
+
+<script src="/js/addPost.js"></script>
