@@ -1,13 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     text-decoration: none;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 22px;
+    background-color: black;
 }
 
 header {
     display: flex;
     align-items: center;
     background-color: lightskyblue;
-    background-image: url('./starsgif.gif') ;
+    background-image: url('./stillstars.gif') ;
+    height: 100px;
 }
 
 header h1 {
@@ -19,9 +31,11 @@ body {
     margin: auto;
     background-color: rgb(0, 0, 0);
     background-image: url('./blueabstract.jpeg') ;
+    background-attachment: fixed;
     background-size: cover;
-color:white;
-    
+color:rgb(255, 255, 255);
+
+   
 
 }
 
@@ -50,6 +64,9 @@ li {
     border: 1px solid rgb(255, 255, 255);
     margin-top: 25px;
     padding: 20px;
+    color:rgb(255, 255, 255);
+
+    background-color: black;
 }
 
 #postFlex {
@@ -57,10 +74,12 @@ li {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .posts a {
-    background-color: lightskyblue;
+    background-color: rgb(0, 0, 0);
 }
 
 #homepageTitle {
@@ -175,12 +194,13 @@ li {
 #logoutBtn {
     background-color: transparent;
     border: none;
+    color:white;
 }
 
 #comment {
     margin-top: 20px;
-    background-color: lightblue;
-    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px;
 }
 
@@ -235,7 +255,7 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: lightskyblue;
+    background: rgb(2, 118, 116);
     padding: 10px;
     display: inline-block;
     border: 1px solid black;
@@ -256,9 +276,9 @@ li {
 .editPost {
     width: 100%;
     margin: auto;
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
 }
 
 #editTitle {
@@ -275,7 +295,7 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: lightskyblue;
+    background: rgb(255, 0, 140);
     padding: 10px;
     display: inline-block;
     border: 1px solid black;
@@ -294,7 +314,7 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: tomato;
+    background: rgb(255, 0, 140);
     padding: 10px;
     display: inline-block;
     border: 1px solid red;
@@ -322,19 +342,29 @@ li {
 
 
 .addNewPost {
-    width: 100%;
+    width: 80%;
     margin: auto;
     border: 3px solid black;
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
+    background-image: url('./blueabstract.jpeg');
+    background-attachment: fixed;
+   
 }
 
 #postTitle {
     width: 50%;
+    font-size: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #ff009d;
 }
 
 #postText {
     width: 100%;
+    font-size: 33px;
+    background-color: black;
+    color: rgb(0, 255, 30);
+    font-size: 70px;
 }
 
 .newPostBtn {
@@ -342,7 +372,7 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: lightskyblue;
+    background: rgb(255, 233, 249);
     padding: 10px;
     display: inline-block;
     border: 1px solid black;
@@ -350,8 +380,8 @@ li {
 }
 
 .newPostBtn:hover {
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    text-shadow: 0px 0px 6px rgb(255, 255, 255);
+    box-shadow: 0px 5px 40px -10px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255, 255, 255);
     transition: all 0.4s ease 0s;
 }
