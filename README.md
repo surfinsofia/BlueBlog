@@ -1,16 +1,23 @@
-# BlueBlog
 
+  ## Title
+  BlueBlog
+  
+  ## Description
+  This Tech Blog is a CMS-style blog site where developers can create accounts and write blog posts and comment on other users posts. Logged in users also have the ability to edit and delete their existing posts. The created, users, posts and comments are saved in the database, and can be accessed when viewing the page on a later occasion. The session expires after 15 minutes of inactivity, prompting the user to log in again and perform their regular tasks. 
 
-## Description
-***
+  BlueBlog is a Node.js express application that follows MVC architectural structure to organize and separate concerns. It is deployed to Heroku via the following link:
+  https://bleublog.herokuapp.com/
+  BlueBlog is a full stack application that uses handlebars.js as the templating language, and Sequelize as the ORM and express-session for authenication. 
 
-Tech Blog is a CMS-style blog site where developers can create accounts and write blog posts and comment on other users posts. Logged in users also have the ability to edit and delete their existing posts. The created, users, posts and comments are saved in the database, and can be accessed when viewing the page on a later occasion. The session expires after 15 minutes of inactivity, prompting the user to log in again and perform their regular tasks. 
+  ## Table of Contents
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [License](#License)
+  4. [Contributing](#Contributing)
+  5. [Tests](#Tests)
+  6. [Questions](#Questions)
 
-Tech Blog is a Node.js express application that follows MVC architectural structure to organize and separate concerns. It is deployed to Heroku via the following link:
-Tech Blog is a full stack application that uses handlebars.js as the templating language, and Sequelize as the ORM and express-session for authenication. 
-
-## Installation
-***
+  ## Installation
 
 To install this application get the repository link from above, either via an HTTP or SSH link. 
 
@@ -65,10 +72,8 @@ To deploy the application from the command line run:
 heroku open
 ```
 
-## Usage
-***
-
-To use this application, navigate to the root of this repository in the terminal and enter either of the following commands:
+  ## Usage
+  To use this application, navigate to the root of this repository in the terminal and enter either of the following commands:
 
 ```
 npm start || node server.js
@@ -76,25 +81,26 @@ npm start || node server.js
 
 This will initialize the node server and allow you to access the database. Visit localhost:3001 to view the application.  
 
-The following images show the application being used: 
+  ## License
+  None
 
-### The applications homepage
+  ## Contributing
+  Contributors Welcome
 
-<img src="./assets/images/1.png" width="500"> 
+  ## Tests
+  
 
-***
+  ## Questions
+  https://github.com/surfinsofia
+  
+  https://www.linkedin.com/in/surfinsofia
+  
+  Reach me with questions by email:
+  asofiae96@gmail.com
+  
 
 ### The login/signup page
 
 <img src="./assets/images/2.png" width="500">
 
 ***
-
-### The dashboard for the logged in user
-
-<img src="./assets/images/3.png" width="500">
-
-
-***
-
-
