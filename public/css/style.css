@@ -7,6 +7,7 @@ header {
     display: flex;
     align-items: center;
     background-color: lightskyblue;
+    background-image: url('./starsgif.gif') ;
 }
 
 header h1 {
@@ -16,7 +17,11 @@ header h1 {
 
 body {
     margin: auto;
-    background-color: lightcyan;
+    background-color: rgb(0, 0, 0);
+    background-image: url('./blueabstract.jpeg') ;
+    background-size: cover;
+color:white;
+    
 
 }
 
@@ -26,12 +31,14 @@ main {
 }
 
 nav {
-    background-color: lightskyblue;
+   
+   
+    
 }
 
 a {
-    background-color: lightskyblue;
-    color: black;
+    
+    color: rgb(255, 255, 255);
     margin-right: 20px;
 }
 
@@ -40,10 +47,9 @@ li {
 }
 
 .posts {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 25px;
-    padding: 10px;
-    background-color: lightskyblue;
+    padding: 20px;
 }
 
 #postFlex {
@@ -71,14 +77,14 @@ li {
 
 .login {
     margin: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(242, 255, 0);
     padding: 10px;
     height: 300px;
 }
 
 .signup {
     margin: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 191);
     padding: 10px;
     height: 300px;
 }
@@ -112,10 +118,10 @@ li {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: lightskyblue;
+    background: rgb(0, 255, 8);
     padding: 10px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     transition: all 0.4s ease 0s;
 }
 
@@ -128,14 +134,14 @@ li {
 
 #signupBtn {
     margin-top: 20px;
-    color: black;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-    background: lightskyblue;
+    background: rgb(0, 255, 8);
     padding: 10px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     transition: all 0.4s ease 0s;
 }
 
